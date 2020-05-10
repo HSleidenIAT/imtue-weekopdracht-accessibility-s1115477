@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: #42C21C;
 }
 
 article, footer, .secondary {
@@ -98,6 +98,10 @@ div[class="nav"] .search {
   align-items: center;
   height: 100%;
   padding: 0 2em;
+}
+
+ul a{
+  color: #163A50;
 }
 
 .search input {
@@ -247,4 +251,13 @@ audio {
 
 .comment-container li p:nth-child(2) {
   flex: 5;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
